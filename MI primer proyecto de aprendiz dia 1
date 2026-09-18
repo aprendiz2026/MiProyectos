@@ -1,1 +1,50 @@
+primera pagina 
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enlaces</title>
+</head>
+<body>
+    <h1>Quieres encontrar un lugar para ti ?</h1>
+    <p>
+        alguna vez la desesperanza te ha hecho sentir que no 
+        hay salida, que no hay un lugar seguro para ti, 
+        pero quiero decirte que si lo hay, y es un lugar donde 
+        puedes encontrar paz, bondad y amor.
+    </p>
+    <a href="listasyelementos.html"><strong>Encontrarme!!</strong></a>
+    
+
+</body>
+</html>
+
+Con un click entras a la siguiente pagina
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu lugar seguro </title>
+</head>
+<body>
+    <h1>Mis Listas de Elementos ordenados</h1>
+    <ol>
+        <li>Paz</li>
+        <li>bondad</li>
+        <li>amor</li>
+    </ol>
+ 
+    <img src="paloma.jpg" alt=""height="300" width="300">
+    <h2>Elementos sin ordenar</h2>
+<ul>
+    <li>Dios</li>
+    <li>Familia</li>
+    <li>respeto</li> 
+</ul>
+</body>
+</html>
