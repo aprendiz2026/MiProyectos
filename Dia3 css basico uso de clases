@@ -1,1 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clases</title>
+    <link rel="stylesheet" href="clases.css">
+</head>
+<body> 
 
+    <h1>
+        uso de clases en css, Selecionando el elemento 
+    </h1>
+    <p>
+        otra forma de secionar un elemento en especifico es 
+        mediante el uso de clases, <br>
+        mediante el uso de [SPAN]
+        Seguido de los modificaciones 
+    </p>
+    <ol>
+        <li><span>Paz</span></li>
+        <li>Amor</li>
+        <li>Respeto</li>
+        <li>Dignidad</li>
+        <li>Empatia</li>
+    </ol>
+    <p>
+        selecionar datos en especifico para modificar el estilo <br>
+        de un elemento en particular, para esto se utilizan las clases,
+        que se definen con un punto (.) seguido del nombre de la clase<br>
+        y se aplican a los elementos HTML mediante el atributo class.
+    </p>
+    <ul>
+        <li class="importante"> Paz</li>
+        <li>Amor</li>
+        <li>Respeto</li>
+        <li>Dignidad</li>
+        <li>Empatia</li>
+    </ul>
+
+    <p>
+        uso de clases mediante el uso de ID seguido de un nombre unico <br>
+        para encontrar el dato a modificar
+    </p>
+
+    <ul>
+        <li id="esencial"> Paz</li>
+        <li>Amor</li>
+        <li>Respeto</li>
+        <li>Dignidad</li>
+        <li>Empatia</li>
+    </ul>
+</body>
+
+</html>
+
+IMPORTANTE ESTO ES LO COLOCADO EN UN ARCHIVO EXTERNO DE CSS LLAMADO STYLE.CSS
+
+
+.importante{
+    color: aqua;
+}
+span{
+    color: red;
+}
+body{
+    background-color: rgb(9, 165, 226);
+}
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+#esencial{
+    color: azure;
+}
